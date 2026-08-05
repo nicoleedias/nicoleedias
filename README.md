@@ -24,7 +24,6 @@
   <img src="https://img.shields.io/badge/Core_Data-607D8B?style=for-the-badge" alt="Core Data"/>
   <img src="https://img.shields.io/badge/Core_ML-FF9500?style=for-the-badge&logo=apple&logoColor=white" alt="Core ML"/>
     <img src="https://img.shields.io/badge/Swift_Data-FF9500?style=for-the-badge&logo=apple&logoColor=white" alt="Swift Data"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
 </p>
 
