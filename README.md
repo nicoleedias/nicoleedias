@@ -1,50 +1,85 @@
 <div align="center">
-  <h1>Olá! Sou a Nicole Cardoso Dias </h1>
-  <h3>👩‍💻 Desenvolvedora iOS | Apple Developer Academy | UCB</h3>
+  <h1>Olá! Sou a Nicole Cardoso Dias</h1>
+  <h3>👩‍💻 Desenvolvedora de Software com foco em IA | Apple Developer Academy | UCB</h3>
 </div>
 
 <br/>
 
-**Desenvolvedora Mobile** com foco no ecossistema Apple, atuando de ponta a ponta no ciclo de desenvolvimento, desde a concepção até a publicação na App Store. Tenho forte vivência em trabalho colaborativo, estruturação de arquiteturas escaláveis e integração de recursos nativos avançados. Atualmente, sou aluna de Ciência da Computação na Universidade Católica de Brasília e estudante na **Apple Developer Academy**.
+Desenvolvo **produtos com Inteligência Artificial**, da concepção à publicação. Integro LLMs e modelos de visão
+computacional em aplicativos reais, cuidando da engenharia em volta do modelo: prompts, saída estruturada,
+fallback entre modelos, latência e privacidade dos dados.
+
+Tenho vários apps publicados na App Store, desenvolvidos em equipe na **Apple Developer Academy**, e curso
+Ciência da Computação na **Universidade Católica de Brasília**.
 
 ---
 
 ### Tecnologias & Ferramentas
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" alt="Swift"/>
-  <img src="https://img.shields.io/badge/SwiftUI-007AFF?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI"/>
-  <img src="https://img.shields.io/badge/UIKit-2396F3?style=for-the-badge&logo=apple&logoColor=white" alt="UIKit"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-</p>
+**Linguagens**
 
 <p align="left">
-  <img src="https://img.shields.io/badge/VIPER-4CAF50?style=for-the-badge" alt="VIPER"/>
-  <img src="https://img.shields.io/badge/MVVM--C-8A2BE2?style=for-the-badge" alt="MVVM-C"/>
-  <img src="https://img.shields.io/badge/Core_Data-607D8B?style=for-the-badge" alt="Core Data"/>
+  <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" alt="Swift"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
+</p>
+
+**IA & ML**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"/>
+  <img src="https://img.shields.io/badge/Foundation_Models-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Apple Foundation Models"/>
   <img src="https://img.shields.io/badge/Core_ML-FF9500?style=for-the-badge&logo=apple&logoColor=white" alt="Core ML"/>
-    <img src="https://img.shields.io/badge/Swift_Data-FF9500?style=for-the-badge&logo=apple&logoColor=white" alt="Swift Data"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white" alt="MediaPipe"/>
+</p>
+
+**Mobile, dados & ferramentas**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/SwiftUI-007AFF?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI"/>
+  <img src="https://img.shields.io/badge/UIKit-2396F3?style=for-the-badge&logo=apple&logoColor=white" alt="UIKit"/>
+  <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose"/>
+  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/SwiftData-FF9500?style=for-the-badge&logo=apple&logoColor=white" alt="SwiftData"/>
+  <img src="https://img.shields.io/badge/MVVM--C-8A2BE2?style=for-the-badge" alt="MVVM-C"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code"/>
 </p>
 
 ---
 
-###  Projetos em Destaque
+### Projetos em Destaque
 
-####  [Souvenir](https://apps.apple.com/br/app/souvenir-puzzles-relaxantes/id6752362489?l=en-GB)
-Jogo narrativo e de puzzle publicado na App Store, desenvolvido de forma colaborativa por uma equipe de 5 desenvolvedores. O título utiliza a mecânica de organizar objetos em um brechó para revelar histórias femininas inspiradoras. Implementado com **SpriteKit** para mecânicas de *drag-and-drop* e animações fluidas, exigindo forte alinhamento entre engenharia e design.
+#### [Rebobina](https://github.com/nicoleedias/WhatsAppWrapped)
+Retrospectiva das conversas do WhatsApp no estilo do Spotify Wrapped, com frases geradas por IA. As estatísticas
+são calculadas no próprio iPhone e só um resumo delas vai ao **Gemini** (Firebase AI Logic), nunca o texto das
+mensagens. A resposta vem em JSON validado por *schema*, com retentativas, troca automática de modelo, limite de
+tempo, frases de reserva e **App Check**.
 
-####  [Agendare](https://apps.apple.com/br/app/agendare-gest\%C3\%A3o-de-sal\%C3\%A3o/id6767654062?l=en-GB)
-Aplicativo iOS focado em otimizar a gestão de pequenas empreendedoras do setor de beleza. Criado para centralizar o controle financeiro e a agenda do salão, o projeto destaca-se pela utilização da arquitetura **VIPER**, garantindo um código altamente modular, e por uma UI/UX pensada para a usabilidade rápida do dia a dia.
+#### [Lito](https://apps.apple.com/br/app/lito/id6827715268?l=en-GB)
+App para pessoas com epilepsia, publicado na App Store. Um **agente de IA conversacional** guia o registro de
+crises passo a passo e responde dúvidas sobre o histórico. O app cruza os registros com o Apple Health, identifica
+padrões, aceita registro por voz via Siri e exporta relatórios em PDF para as consultas médicas.
 
-####  [Cooinc](https://apps.apple.com/br/app/cooinc/id6761497139?l=en-GB)
-Aplicativo de educação financeira focado no público infantil. O projeto inova ao focar no engajamento familiar através de **metas compartilhadas** e de um sistema prático onde a criança compreende o valor do dinheiro alcançando objetivos após o cumprimento de tarefas estabelecidas pelos pais.
+#### [Nodify](https://github.com/nicoleedias/acessibilidade-spotify)
+App Android de acessibilidade que permite a pessoas com deficiência motora controlar o Spotify com movimentos da
+cabeça. Pipeline de **visão computacional on-device** com MediaPipe Face Mesh, calibração por usuário,
+processamento 100% local e latência-alvo abaixo de 500 ms. Feito em **Kotlin** com Jetpack Compose.
 
-####  The Chemistry of Memories
-Projeto desenvolvido para o **Swift Student Challenge**. Uma aplicação interativa que explora a química presente nas situações do nosso cotidiano, com foco na digitalização e no entendimento dos processos de revelação de imagens em salas escuras, transformando ciência em uma experiência visual fluida.
+#### [Cooinc](https://apps.apple.com/br/app/cooinc/id6761497139?l=en-GB)
+App de educação financeira familiar, publicado na App Store. A criança aprende a ganhar e gerenciar dinheiro
+cumprindo tarefas e metas combinadas com os pais, com perfis sincronizados e um mascote com IA.
 
-####  [Party Box](https://apps.apple.com/br/app/party-box-planner-de-festas/id6786434528?l=en-GB&mt=12)
-Aplicativo desenvolvido para simplificar e centralizar a organização de festas e eventos. O Party Box atua como um assistente prático, ajudando no planejamento de tarefas, controle de convidados e gestão de recursos, garantindo que a preparação seja tão fluida quanto o evento em si. Focado em uma interface intuitiva e na melhor experiência do usuário (UX).
+<details>
+<summary><b>Outros apps publicados</b></summary>
+<br/>
+
+- **[Souvenir](https://apps.apple.com/br/app/souvenir-puzzles-relaxantes/id6752362489?l=en-GB):** jogo narrativo de puzzle em SpriteKit, em que organizar objetos de um brechó revela histórias de mulheres inspiradoras.
+- **[Agendare](https://apps.apple.com/br/app/agendare-gest%C3%A3o-de-sal%C3%A3o/id6767654062?l=en-GB):** agenda e controle financeiro para pequenas empreendedoras do setor de beleza.
+- **[Party Box](https://apps.apple.com/br/app/party-box-planner-de-festas/id6786434528?l=en-GB&mt=12):** planejamento de festas, com tarefas, convidados e recursos num só lugar.
+- **The Chemistry of Memories:** projeto para o Swift Student Challenge sobre a química da revelação de fotos em sala escura.
+
+</details>
 
 ---
 
